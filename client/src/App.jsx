@@ -6,6 +6,7 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import Header from "./components/Header"
 
 import Nav from './components/Nav';
 import { StoreProvider } from './utils/GlobalState';
@@ -33,6 +34,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <StoreProvider>
+        <Header/>
         <Nav />
         <Outlet />
       </StoreProvider>
