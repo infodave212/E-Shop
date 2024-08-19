@@ -10,6 +10,8 @@ import Header from "./components/Header"
 
 import Nav from './components/Nav';
 import { StoreProvider } from './utils/GlobalState';
+import Footer from "./components/Footer"
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -35,8 +37,9 @@ function App() {
     <ApolloProvider client={client}>
       <StoreProvider>
         <Header/>
-        <Nav />
+        {/* <Nav /> */}
         <Outlet />
+        <Footer/>
       </StoreProvider>
     </ApolloProvider>
   );
