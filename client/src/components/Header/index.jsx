@@ -1,3 +1,4 @@
+import Auth from "../../utils/auth"
 function Header (){
     return <>
       <div class="hero_area">
@@ -34,7 +35,15 @@ function Header (){
             </li>
           </ul>
           <div class="user_option">
-            <a href="/login">
+            {
+            Auth.loggedIn()? <a href="#" onClick={()=>Auth.logout()}>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span>
+              logout
+            </span>
+          </a>
+          :<>
+          <a href="/login">
               <i class="fa fa-user" aria-hidden="true"></i>
               <span>
                 Login
@@ -46,6 +55,9 @@ function Header (){
                 Sign Up
               </span>
             </a>
+          </>
+            }
+            
             <a href="">
               <i class="fa fa-shopping-bag" aria-hidden="true"></i>
             </a>

@@ -14,7 +14,7 @@ function Hero() {
                           Gift Shop
                         </h1>
                         <p>
-                          Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
+                            accessories, electronics,kids dresses, female dresses, male wears, shoes & female hand bags
                         </p>
                         <a href="">
                           Contact Us
@@ -23,7 +23,7 @@ function Hero() {
                     </div>
                     <div class="col-md-5 ">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="" />
+                        <img src="images/E-Shop3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -48,7 +48,7 @@ function Hero() {
                     </div>
                     <div class="col-md-5 ">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="" />
+                        <img src="images/E-Shop.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ function Hero() {
                     </div>
                     <div class="col-md-5 ">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="" />
+                        <img src="images/E-Shop2.jpg" alt="" />
                       </div>
                     </div>
                   </div>
