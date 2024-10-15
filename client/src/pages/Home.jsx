@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="container">
       <Hero/>
-      <CategoryMenu />
+      {/* <CategoryMenu /> */}
       <Item/>
       <NewItem/>
       <WhyItem/>
